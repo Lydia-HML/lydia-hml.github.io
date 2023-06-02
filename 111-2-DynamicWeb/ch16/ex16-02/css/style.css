@@ -1,0 +1,100 @@
+body { 
+	background-color: #f1f3f3; 
+}
+
+header {
+	position: relative;
+	background-color: black;
+	height: 75vh;
+	min-height: 25rem;
+	width: 100%;
+	overflow: hidden;
+  }
+  
+  header video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 0;
+	transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+	position: relative;
+	z-index: 2;
+  }
+  
+  header .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
+	z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+	header {
+	  background: url('https://picsum.photos/id/477/1200/1200') black no-repeat center center scroll;
+	  height: 40vh;
+	}
+  
+	header video {
+	  display: none;
+	}
+  }
+
+.carousel-caption img{
+    width: 10rem;
+    border-radius: 5rem;
+    margin-top: 1.5rem;
+}
+@media(max-width:767px){
+    .carousel-caption img{
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 0.5rem;
+    }
+}
+
+h4 {
+	text-align: center;
+	color:#ff6161;
+}
+
+.item-price {
+	text-align: center;
+	font-size: 1rem;
+}
+
+.carousel-control-prev {
+	left: -7%;
+}
+
+.carousel-control-next {
+	right: -7%;
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	z-index: 1;
+}
+.carousel-control-prev-icon  {
+	margin-left: -50px;
+}
+.carousel-control-next-icon  {
+	margin-right: -50px;
+}
+.toast-position {
+	position: absolute; 
+	z-index: 1;
+	top: 50; 
+	right: 0;
+}

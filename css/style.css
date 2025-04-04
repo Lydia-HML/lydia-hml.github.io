@@ -175,6 +175,50 @@ body {
   z-index: -1;
 }
 
+/* 研究論文區塊 */
+.publications-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.publication-item {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.publication-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.publication-year {
+  font-weight: 500;
+  padding: 5px 12px;
+}
+
+.publication-title {
+  margin-bottom: 8px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.publication-authors {
+  font-size: 0.9rem;
+}
+
+.publication-journal {
+  font-size: 0.95rem;
+  color: #495057;
+}
+
+.publication-note {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
 /* 技能區塊 */
 .skill-card {
   background-color: #fff;

@@ -1,1 +1,1 @@
-{"tfjsVersion":"1.7.4","tmVersion":"2.4.10","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2025-04-04T14:49:45.727Z","userMetadata":{},"modelName":"tm-my-image-model","labels":["Peace","Hello Kitty","Flower"],"imageSize":224}
+{"tfjsVersion":"1.7.4","tmVersion":"2.4.10","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2025-04-04T15:34:03.539Z","userMetadata":{},"modelName":"tm-my-image-model","labels":["Peace","Hello Kitty","Flower","Victor","Love","Thumbs UP","Empty"],"imageSize":224}

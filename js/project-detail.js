@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <li>庫存週轉率提高35%</li>
           <li>訂單處理時間減少50%</li>
           <li>總體運營效率提升40%</li>
+         
         </ul>
       `
     },

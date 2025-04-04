@@ -1,163 +1,223 @@
+
 <!DOCTYPE html>
-<html lang="zh-Hant-Tw">
+<html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dr. Lin, Lydia Hsiao-Mei 林筱玫博士 </title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-	<link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的作品集</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<!--Navbar-->
-	<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-		<a class="navbar-brand px-2 text-white fs-6" href="#">Dr. Lydia's World</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"><span class="navbar-toggler-icon"></span></button>
-		<div class="collapse navbar-collapse" id="navbarContent">
-			<ul class="navbar-nav me-auto px-2 mb-lg-0">
-				<li class="nav-item"><a class="nav-link" href="#text1"><i class="bi bi-gear"></i> Education </a></li>
-				<li class="nav-item"><a class="nav-link" href="#text11"><i class="bi bi-gear"></i> Research </a></li>
-				<li class="nav-item"><a class="nav-link" href="#text2"><i class="bi bi-gear"></i> Journal Papers</a></li>
-				<li class="nav-item"><a class="nav-link" href="#text3"><i class="bi bi-gear"></i> Conference Papers</a></li>
-				<li class="nav-item"><a class="nav-link" href="#text4"><i class="bi bi-gear"></i> Sample Code</a></li>
-			</ul>				
-		</div>		
-	</nav>
-	<section class="container-fluid mt-5">
-        <div class="row">
-            <div class="col-lg-4 sidebar">
-                <div class="row justify-content-center align-items-center sidebarbox">
-                    <div class="text-center">
-                        <img src="img/professional-t2.jpg" class="rounded-circle my-3 sidebarphoto">
-						<h5 class="fs-4 text-white">IxD of Taipei Tech</h5>                        
-                    </div>
-                </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">關於我</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#research">研究範疇</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#papers">期刊論文</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">作品集</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">聯絡方式</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mt-5 pt-5">
+    <section id="about" class="py-5">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+          <img src="https://ba.ntust.edu.tw/var/file/98/1098/img/796889617.png" alt="林筱玫 Lydia" class="img-fluid rounded-circle profile-img shadow" style="max-width: 250px;">
+        </div>
+        <div class="col-md-8">
+          <h1 class="display-4 mb-4">你好，我是<span class="text-primary">林筱玫 Lydia</span></h1>
+          <div class="mb-4">
+            <h5 class="text-muted mb-3">學歷背景</h5>
+            <p class="lead">
+              國立台灣科技大學設計學院建築系 博士
+            </p>
+          </div>
+          <div class="mb-4">
+            <h5 class="text-muted mb-3">現職</h5>
+            <p class="lead">
+              臺灣科技大學企業管理系專案助理教授
+            </p>
+          </div>
+          <div class="mb-4">
+            <h5 class="text-muted mb-3">專長領域</h5>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-primary">人工智慧</span>
+              <span class="badge bg-primary">物聯網</span>
+              <span class="badge bg-primary">設計思考</span>
+              <span class="badge bg-primary">創新創業</span>
             </div>
-            <div class="col-lg-8 bg-light offset-lg-4">
-                <div class="col-lg-10 mx-auto py-4">
-					<h1>林筱玫</h1>
-					<h4>Lin, Hsiao-Mei Lin (Lydia)</h4>
-
-					<h4>E-mail:</h4> 
-					<p><a href="mailto:Lydia.hmlin@mail.ntust.edu.tw">Lydia.hmlin[at]mail.ntust.edu.tw</a></p> 
-					<p><a href="mailto:lydia.hmlin@gmail.com">Lydia.hmlin[at]gmail.com</a></p>
-						
-					<h4>Website:</h4><p><a href="https://lydia-hml.github.io/">https://lydia-hml.github.io/</a></p>
-						
-                	<h2 class="display-6" id="text1">Education </h2>
-					<h4>學歷</h4>
-                	<p> 
-                        <lo>
-							<li>國立台灣科技大學-設計學院建築系-博士</li>
-							<li>Ph.D. in Architecture, College of Design, National Taiwan University of Science and Technology (NTUST)</li>
-							<li>國立清華大學-電資學院資訊工程系-碩士/學士</li>
-							<li>Master's and Bachelor’s degrees in Computer Science, College of Electrical Engineering and Computer Science, National Tsing Hua University (NTHU)</li>
-
-						</lo>
-					<h2 class="display-6" id="text11"> Research </h2>
-					<h4>研究範疇</h4>
-						<p>人工智慧(Artificial Intelligence)/物聯網(Internet of Things)/設計思考(Design Thinking)/創新創業(Innovation and Entrepreneurship)</p>
-						
-              <!--   <div class="col-sm my-2 zoom"> -->
-              <!-- 		<img src="img/photo01.jpg" class="img-fluid"> -->
-        	  <!-- 	</div> -->
-              <!--   <div class="col-sm my-2 pb-3 zoom"> -->
-              <!--  		<img src="img/photo02.jpg" class="img-fluid"> -->
-         	   <!--   </div>  -->
-			<!-- 	<div class="col-sm imy-2 pb-3 zoom"> -->
-              <!--   	<img src="img/photo03.jpg" class="img-fluid"> -->
-              <!--   </div> -->
-
-
-					<h2 class="display-6" id="text2">Journal Papers</h2>
-					<h4>期刊論文</h4>
-                    <ol type="1" start="1">
-                        <li>	Lydia Hsiao-Mei Lin, Wei-Cheng Lien, Cindy Yu-Ting Cheng, You-Cheng Lee, Yi-Ting Lin, Chin-Chia Kuo, Yi-Ting Lai, and Yan-Tsung Peng, “A rapid household mite detection and classification technology based on artificial intelligence-enhanced scanned images,” Internet of Things, Vol. 29, Jan. 2025. [Online]. Available: https://doi.org/10.1016/j.iot.2024.101484 (SCI, Q1) (First Author)</li>
-                        <li>	Hsiao-Mei Lin, Ching-Yuan Lin, Chun-Hung Wang, and Ming-Jong Tsai. “A Novel Mechanical Fault Diagnosis Based on Transfer Learning with Probability Confidence Convolutional Neural Network Model,” Applied Sciences, vol. 12, no. 19, p. 9670, Sep. 2022. [Online]. Available: https://www.mdpi.com/2076-3417/12/19/9670. (SCI, Q2) (First Author)</li>
-                        <li>	Zhi-Feng Guan, Hsiao-Mei Lin, and Ching-Yuan Lin. IoT System to Detect and Record Closure Status of Fire Doors-Using LoRa Technology, Architecture Science (ArS), Pp. 29-38, Dec. 2018. [Online]. Available: https://doi.org/10.3966/221915772018120018003 </li>
-                        <li>	Hsiao-Mei Lin, Shuo-Hung Chen, Jim Kao, Yung-Ming Lee, Gary Li-Kai Hsiao, Ching-Yuan Lin, “Applying Active Dynamic Signage System in Complex Underground Construction,” International Journal of Scientific & Engineering Research (IJSER), vol. 8, Feb. 2017. [Online]. Available: https://api.semanticscholar.org/CorpusID:212458586 (First Author) </li>
-                    </ol>
-					<h2 class="display-6" id="text3">Conference Papers</h2>
-                    <h4>研討會論文</h4>
-                    <ol type="1" start="1">
-                        <li>	Ting-Jui Chang, Lydia Hsiao-Mei Lin, Richard Tzong-Han Tsai, "Conversational Product Recommendation using LLM," 2024 IEEE 4th International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB 2024), Taipei, Taiwan, 2024, pp. 340-343. [Online]. Available: doi: 10.1109/ICEIB61477.2024.10602608. (Corresponding Author) </li>
-                        <li>	Jun-Wei Wu, Lydia Hsiao-Mei Lin, Richard Tzong-Han Tsai, "Enhancing ESG Reporting Analysis: Leveraging GPT and Resampling Methods for Improved Multi-Label Classification," 2024 IEEE 4th International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB 2024), Taipei, Taiwan, 2024, pp. 415-418. [Online]. Available: doi: 10.1109/ICEIB61477.2024.10602711. (Corresponding Author) </li>
-                        <li>	Lydia Hsiao-Mei Lin, Fang-Kai Ting, Ting-Jui Chang, Jun-Wei Wu, Richard Tzong-Han Tsai, "GPT4ESG: Streamlining Environment, Society, and Governance Analysis with Custom AI Models," 2024 IEEE 4th International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB 2024), Taipei, Taiwan, 2024, pp. 442-446, [Online]. Available: doi: 10.1109/ICEIB61477.2024.10602567. (First and Corresponding Author) </li>
-                        <li>	Cindy Yu-Ting Cheng, Lydia Hsiao-Mei Lin*, Wei-Cheng Lien, Yi-Ting Lai, Yi-Ting Lin, Yan-Tsung Peng, and You-Cheng Lee, “AI -Enhanced Household Mite Detection and Classification”, IEEE International Conference on Electronic Communications，Internet of Things and Big Data (ICEIB 2024), Taipei, Taiwan, 2024. (Corresponding Author) </li>
-                        <li>	Fang-Kai Ting, Lydia Hsiao-Mei Lin*, Wei-Cheng Lien, Simon Hung-Yi Lu, Richard Tzong-Han Tsai, “Advanced RUL Prediction with Transformer Architecture and Multi-Scale Feature Engineering”, IEEE International Conference on Electronic Communications，Internet of Things and Big Data (ICEIB 2024), Taipei, Taiwan, 2024. (Corresponding Author) </li>
-                        <li>	Yi-Ting Lin; Yan-Tsung Peng; Wei-Cheng Lien; You-Cheng Lee; Yi-Ting Lai and Lydia Hsiao-Mei Lin, “High-Precision AI-based Mite Detection and Classification using Image Enhancement Techniques”, National Computer Symposium (NCS 2023), Taipei, Taiwan, 2023. pp. 280-284. </li>
-                        <li>	Hsiao-Mei Lin, Chun-Hung Wang, Ming-Jong Tsai, and Ching-Yuan Lin, “A Novel Mechanical Fault Diagnosis Based on Transfer Learning in Probabilistic Confidence CNN Model,” presented at the 2022 IEEE International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB 2022), 2022 Hsinchu, Taiwan. (First and Corresponding Author) </li>
-                        <li>	Hsiao-Mei Lin, Ching-Yuan Lin, Jui-Cheng Ko, and Yu-Shiang Wu, “Risk Factors of Post-earthquake Fire for Constructions Using the Analytic Hierarchy Process Approach,” in Proceedings of the 2016 International Conference on Architectural Engineering and Civil Engineering (ICAECE 2016), Dec. 2016, pp. 1–4, doi: 10.2991/aece-16.2017.1 [Online]. Available: https://doi.org/10.2991/aece-16.2017.1 (First Author) </li>
-                        <li>	Shuo- Hung Chen, Hsiao-Mei Lin, Ching-Chou Hsieh, Chih-Tsun Huang, Jing-Jia Liou, Yeh-Ching Chung, “TurboVG: A HW/SW co-designed multi-core OpenVG accelerator for vector graphics applications with embedded power profiler,” 16th Asia and South Pacific Design Automation Conference (ASP-DAC 2011), Yokohama, Japan, January 25-28, 2011. [Online]. Available: doi:10.1109/ASPDAC.2011.5722315 </li>
-                        <li>	Shuo-Hung Chen, Hsiao-Mei Lin, Hsin-Wen Wei, Yi-Cheng Chen, Chih-Tsun Huang, Yeh-Ching Chung, “Hardware/Software co-designed accelerator for vector graphics applications,” 9th IEEE SympAosium on Application Specific Processors (SASP 2011), San Diego, CA, USA, 2011. [Online]. Available: doi: 10.1109/SASP.2011.5941088 </li>
-                        <li>	Shuo-Hung Chen, Hsiao-Mei Lin, Kuo-Yi Chen, Yuan-Hao Chang, Pen-Chung Yew, Chien-Chung Ho ,“A systematic methodology for OS benchmark characterization,” Proceedings of the 2013 Research in Adaptive and Convergent Systems 2013 (RACS 2013), Montreal Quebec Canada, October 1-4, 2013. pp.404 – 409. [Online]. Available: doi: 10.1145/2513228.2513234 </li>
-                    </ol>
-
-
-
-
-        <!--             <div class="row"></div> -->
-        <!--                 <div class="col-sm my-2 zoom"> -->
-        <!--                     <img src="img/photo04.jpg" class="img-fluid"> -->
-        <!--                 </div> -->
-        <!--                 <div class="col-sm my-2 pb-3 zoom"> -->
-        <!--                     <img src="img/photo05.jpg" class="img-fluid"> -->
-        <!--                 </div> -->
-		<!-- 				<div class="col-sm my-2 pb-3 zoom"> -->
-        <!--                     <img src="img/photo13.jpg" class="img-fluid"> -->
-        <!--                 </div> -->
-        <!--             </div> -->
-
-
-					
-					<div class="row"> <!--圖片輪播-->
-						<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img src="img/photo06.jpg" class="d-block w-100">
-								</div>
-								<div class="carousel-item">
-									<img src="img/photo07.jpg" class="d-block w-100">
-								</div>
-								<div class="carousel-item">
-									<img src="img/photo08.jpg" class="d-block w-100">
-								</div>
-							</div>
-						</div>
-                    </div>
-				
-					<h2 class="display-6 pt-3" id="text4">Sample Code</h2>
-					<h4>課程範例程式碼</h4>
-					<p><a href="https://github.com/Lydia-HML/111-2-DynamicWeb">111-2-DynamicWeb @GitHub</a></p>
-					<div class="row">
-                        <!-- <div class="col-sm my-2 zoom">
-                            <img src="img/photo09.jpg" class="img-fluid">
-                        </div> -->
-                        <div class="col-sm my-2 pb-3">
-                            <img src="img/photo10.jpg" class="img-fluid">
-                        </div>
-						<div class="w-100"></div>  <!--強迫換行-->
-						<div class="col-sm my-2">
-                            <img src="img/photo11.jpg" class="img-fluid">
-                        </div>
-                        <!-- <div class="col-sm my-2 pb-3 zoom">
-                            <img src="img/photo12.jpg" class="img-fluid">
-                        </div> -->
-                    </div>
-				    
-            	</div> 
+          </div>
+          <div class="mb-4">
+            <h5 class="text-muted mb-3">講授課程</h5>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">人工智慧與大數據之商業應用</span>
+              <span class="badge bg-secondary">人工智慧應用</span>
+              <span class="badge bg-secondary">生成式AI與數位行銷應用</span>
             </div>
-			<div class="col-lg-8 bg-dark offset-lg-4 p-3">
-				<div class="text-center text-light">
-					<small>國立臺灣科技大學 National Taiwan University of Science and Technology (NTUST) </small><br>
-					<small>管理學院 企業管理系 Department of Business Administration (BA), School of Management </small><br>
-                	<small>Copyrights © 2025 All Rights Reserved by Dr. Lydia Hsiao-Mei Lin 林筱玫</small>
-				</div>
-        	</div>
-		</div>
+          </div>
+        </div>
+      </div>
     </section>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-	<script src="js/bootstrap.bundle.min.js" ></script>
+
+    <section id="research" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">研究範疇</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <span class="fw-bold">• 人工智慧 (Artificial Intelligence)</span>
+              </li>
+              <li class="mb-3">
+                <span class="fw-bold">• 物聯網 (Internet of Things)</span>
+              </li>
+              <li class="mb-3">
+                <span class="fw-bold">• 設計思考 (Design Thinking)</span>
+              </li>
+              <li class="mb-3">
+                <span class="fw-bold">• 創新創業 (Innovation and Entrepreneurship)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="papers" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">期刊論文</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="card mb-3">
+              <div class="card-body">
+                <p class="card-text">
+                  <a href="https://doi.org/10.1016/j.iot.2024.101484" target="_blank" class="text-decoration-none">
+                    Internet of Things Journal (SCI, Q1) (First Author)
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-5">
+      <h2 class="text-center mb-5">作品集</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80" class="card-img-top" alt="AI Technology" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h3 class="card-title h5">
+                <a href="ai-platform.html" class="text-decoration-none">人工智慧教學平台</a>
+              </h3>
+              <p class="card-text">整合AI技術的創新教學平台，提供個人化學習體驗。</p>
+              <a href="ai-platform.html" class="btn btn-outline-primary">查看詳情</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80" class="card-img-top" alt="IoT Devices" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h3 class="card-title h5">
+                <a href="iot-system.html" class="text-decoration-none">智慧物聯網應用</a>
+              </h3>
+              <p class="card-text">結合IoT技術的智慧環境監控系統。</p>
+              <a href="iot-system.html" class="btn btn-outline-primary">查看詳情</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=80" class="card-img-top" alt="Design Thinking Workshop" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h3 class="card-title h5">
+                <a href="design-thinking.html" class="text-decoration-none">設計思考工作坊</a>
+              </h3>
+              <p class="card-text">創新設計思考方法論的實踐與應用。</p>
+              <a href="design-thinking.html" class="btn btn-outline-primary">查看詳情</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&auto=format&fit=crop&q=80" class="card-img-top" alt="Innovation Startup" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h3 class="card-title h5">
+                <a href="startup-consulting.html" class="text-decoration-none">創新創業輔導</a>
+              </h3>
+              <p class="card-text">新創企業諮詢與培育計畫執行。</p>
+              <a href="startup-consulting.html" class="btn btn-outline-primary">查看詳情</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80" class="card-img-top" alt="Digital Transformation" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h3 class="card-title h5">
+                <a href="digital-transformation.html" class="text-decoration-none">數位轉型顧問</a>
+              </h3>
+              <p class="card-text">企業數位化轉型策略規劃與執行。</p>
+              <a href="digital-transformation.html" class="btn btn-outline-primary">查看詳情</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop&q=80" class="card-img-top" alt="AI Generation" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h3 class="card-title h5">
+                <a href="ai-generation.html" class="text-decoration-none">生成式AI應用</a>
+              </h3>
+              <p class="card-text">AI生成技術在商業領域的創新應用。</p>
+              <a href="ai-generation.html" class="btn btn-outline-primary">查看詳情</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="mb-4">聯絡方式</h2>
+          <p class="lead">Email: Lydia.hmlin@mail.ntust.edu.tw; Lydia.hmlin@gmail.com</p>
+          <p class="lead">研究室：MA-406</p>
+          <p class="lead">電話：886-2-2730-3655</p>
+          <p class="lead">Office hours：五 12:00-14:00 Fri (請先email聯繫)</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-light py-4 mt-5">
+    <div class="container text-center">
+      <p class="mb-0">© 2024 版權所有</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

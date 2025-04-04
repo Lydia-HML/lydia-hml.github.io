@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <h4 class="alert-heading">找不到項目!</h4>
         <p>抱歉，無法找到您請求的項目。可能是連接的項目ID不存在或已被移除。</p>
         <hr>
-        <p class="mb-0">請返回<a href="index.html#projects" class="alert-link">項目列表</a>選擇一個有效的項目。</p>
+        <p class="mb-0">請返回<a href="portfolio.html#projects" class="alert-link">項目列表</a>選擇一個有效的項目。</p>
       </div>
     `;
   }

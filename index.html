@@ -25,46 +25,26 @@
   <header id="header" class="fixed-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
       <div class="container">
-        <div class="d-flex align-items-center">
-          <a class="navbar-brand me-2" href="https://www.ntust.edu.tw/" target="_blank">
-            <img src="https://www.secretariat.ntust.edu.tw/var/file/63/1063/img/341961222.png" alt="國立台灣科技大學" height="40">
-          </a>
-          <a class="text-decoration-none" href="/">
-            <span class="fw-bold text-primary" style="font-size: 1.3rem;">Lydia's World</span>
-          </a>
-        </div>
+        <a class="navbar-brand fw-bold" href="#"><span class="text-primary">P</span>ortfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link lang-zh" href="#home">首頁</a>
-              <a class="nav-link lang-en d-none" href="#home">Home</a>
+              <a class="nav-link" href="#home">首頁</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link lang-zh" href="#projects">項目</a>
-              <a class="nav-link lang-en d-none" href="#projects">Projects</a>
+              <a class="nav-link" href="#projects">項目</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link lang-zh" href="#about">關於我</a>
-              <a class="nav-link lang-en d-none" href="#about">About</a>
+              <a class="nav-link" href="#about">關於我</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link lang-zh" href="#publications">研究論文</a>
-              <a class="nav-link lang-en d-none" href="#publications">Publications</a>
+              <a class="nav-link" href="#skills">技能</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link lang-zh" href="#skills">技能</a>
-              <a class="nav-link lang-en d-none" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link lang-zh" href="#contact">聯繫</a>
-              <a class="nav-link lang-en d-none" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item ms-lg-2 d-flex">
-              <button id="btn-lang-zh" class="btn btn-sm btn-outline-primary active me-1" onclick="switchLanguage('zh')">中文</button>
-              <button id="btn-lang-en" class="btn btn-sm btn-outline-primary" onclick="switchLanguage('en')">EN</button>
+              <a class="nav-link" href="#contact">聯繫</a>
             </li>
           </ul>
         </div>
@@ -79,21 +59,15 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5 mb-lg-0">
             <h1 class="display-4 fw-bold mb-4">
-              <span class="text-primary lang-zh">您好，我是</span><br>
-              <span class="text-primary lang-en d-none">Hello, I'm</span><br>
-              <span>林筱玫 Lydia Hsiao-Mei Lin</span>
+              <span class="text-primary">您好，我是</span><br>
+              <span>林筱玫</span>
             </h1>
-            <p class="lead text-muted mb-5 lang-zh">
+            <p class="lead text-muted mb-5">
               專案助理教授，專注於人工智慧/物聯網/設計思考/創新創業領域，以技術與創新解決實際問題。
             </p>
-            <p class="lead text-muted mb-5 lang-en d-none">
-              Assistant Professor, focusing on AI/IoT/Design Thinking/Innovation & Entrepreneurship, solving real-world problems through technology and innovation.
-            </p>
             <div class="d-flex flex-wrap gap-3">
-              <a href="#projects" class="btn btn-primary shadow lang-zh">查看我的作品</a>
-              <a href="#projects" class="btn btn-primary shadow lang-en d-none">View My Projects</a>
-              <a href="#contact" class="btn btn-outline-dark lang-zh">聯繫我</a>
-              <a href="#contact" class="btn btn-outline-dark lang-en d-none">Contact Me</a>
+              <a href="#projects" class="btn btn-primary shadow">查看我的作品</a>
+              <a href="#contact" class="btn btn-outline-dark">聯繫我</a>
             </div>
             <div class="social-links mt-4">
               <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
@@ -105,7 +79,7 @@
           <div class="col-lg-6 text-center text-lg-end">
             <div class="profile-img-wrap">
               <img src="https://ba.ntust.edu.tw/var/file/98/1098/img/796889617.png" 
-                  alt="林筱玫教授照片" class="img-fluid rounded-circle">
+                  alt="個人照片" class="img-fluid rounded-circle">
             </div>
           </div>
         </div>
@@ -116,27 +90,19 @@
     <section id="projects" class="section-padding bg-light">
       <div class="container">
         <div class="text-center mb-5">
-          <h2 class="section-title lang-zh">我的項目</h2>
-          <h2 class="section-title lang-en d-none">My Projects</h2>
-          <p class="text-muted lang-zh">
+          <h2 class="section-title">我的項目</h2>
+          <p class="text-muted">
             探索我在不同類別的最新作品，從網絡應用程序到設計系統。
-          </p>
-          <p class="text-muted lang-en d-none">
-            Explore my latest work across different categories, from web applications to design systems.
           </p>
         </div>
         
         <!-- 項目過濾器 -->
         <div class="text-center mb-5">
           <div class="btn-group filter-buttons" role="group" aria-label="項目過濾器">
-            <button type="button" class="btn btn-outline-dark active lang-zh" data-filter="all">所有項目</button>
-            <button type="button" class="btn btn-outline-dark active lang-en d-none" data-filter="all">All Projects</button>
-            <button type="button" class="btn btn-outline-dark lang-zh" data-filter="web">網站開發</button>
-            <button type="button" class="btn btn-outline-dark lang-en d-none" data-filter="web">Web Development</button>
-            <button type="button" class="btn btn-outline-dark lang-zh" data-filter="design">UI/UX 設計</button>
-            <button type="button" class="btn btn-outline-dark lang-en d-none" data-filter="design">UI/UX Design</button>
-            <button type="button" class="btn btn-outline-dark lang-zh" data-filter="mobile">移動應用</button>
-            <button type="button" class="btn btn-outline-dark lang-en d-none" data-filter="mobile">Mobile Apps</button>
+            <button type="button" class="btn btn-outline-dark active" data-filter="all">所有項目</button>
+            <button type="button" class="btn btn-outline-dark" data-filter="web">網站開發</button>
+            <button type="button" class="btn btn-outline-dark" data-filter="design">UI/UX 設計</button>
+            <button type="button" class="btn btn-outline-dark" data-filter="mobile">移動應用</button>
           </div>
         </div>
         
@@ -151,7 +117,7 @@
                 <div class="project-overlay">
                   <h4 class="text-white">電子商務儀表板</h4>
                   <p class="text-white">具有分析和庫存管理功能的在線商店完整管理儀表板。</p>
-                  <a href="project-details.html?id=1" class="btn btn-primary mt-3">查看項目</a>
+                  <button class="btn btn-primary mt-3">查看項目</button>
                 </div>
               </div>
               <div class="card-body">
@@ -174,7 +140,7 @@
                 <div class="project-overlay">
                   <h4 class="text-white">健康應用 UI 套件</h4>
                   <p class="text-white">健康和健身應用程序的綜合 UI 設計系統。</p>
-                  <a href="project-details.html?id=2" class="btn btn-primary mt-3">查看項目</a>
+                  <button class="btn btn-primary mt-3">查看項目</button>
                 </div>
               </div>
               <div class="card-body">
@@ -197,7 +163,7 @@
                 <div class="project-overlay">
                   <h4 class="text-white">旅行伴侶應用</h4>
                   <p class="text-white">具有行程管理和當地推薦功能的移動應用程序。</p>
-                  <a href="project-details.html?id=3" class="btn btn-primary mt-3">查看項目</a>
+                  <button class="btn btn-primary mt-3">查看項目</button>
                 </div>
               </div>
               <div class="card-body">
@@ -220,7 +186,7 @@
                 <div class="project-overlay">
                   <h4 class="text-white">金融分析平台</h4>
                   <p class="text-white">用於金融洞察和績效跟踪的數據可視化平台。</p>
-                  <a href="project-details.html?id=4" class="btn btn-primary mt-3">查看項目</a>
+                  <button class="btn btn-primary mt-3">查看項目</button>
                 </div>
               </div>
               <div class="card-body">
@@ -243,7 +209,7 @@
                 <div class="project-overlay">
                   <h4 class="text-white">品牌識別系統</h4>
                   <p class="text-white">完整品牌識別設計，包括徽標、色彩系統和品牌指南。</p>
-                  <a href="project-details.html?id=5" class="btn btn-primary mt-3">查看項目</a>
+                  <button class="btn btn-primary mt-3">查看項目</button>
                 </div>
               </div>
               <div class="card-body">
@@ -266,7 +232,7 @@
                 <div class="project-overlay">
                   <h4 class="text-white">智能家居控制應用</h4>
                   <p class="text-white">用於控制智能家居設備和自動化的 IoT 移動應用程序。</p>
-                  <a href="project-details.html?id=6" class="btn btn-primary mt-3">查看項目</a>
+                  <button class="btn btn-primary mt-3">查看項目</button>
                 </div>
               </div>
               <div class="card-body">
@@ -295,281 +261,53 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-2 order-lg-1 mt-5 mt-lg-0">
-            <h2 class="section-title lang-zh">關於我</h2>
-            <h2 class="section-title lang-en d-none">About Me</h2>
-            <p class="text-muted mb-4 lang-zh">
-              你好！我是林筱玫 (Lydia Hsiao-Mei Lin)，目前在國立台灣科技大學企業管理系擔任專案助理教授，致力於人工智慧、物聯網、設計思考和創新創業領域的研究與教學。
+            <h2 class="section-title">關於我</h2>
+            <p class="text-muted mb-4">
+              你好！我是林筱玫，目前在國立台灣科技大學企業管理系擔任專案助理教授，致力於人工智慧、物聯網、設計思考和創新創業領域的研究與教學。
             </p>
-            <p class="text-muted mb-4 lang-en d-none">
-              Hello! I'm Hsiao-Mei Lin, currently serving as a Project Assistant Professor in the Department of Business Administration at National Taiwan University of Science and Technology, dedicated to research and teaching in AI, IoT, Design Thinking, and Innovation & Entrepreneurship.
-            </p>
-            <p class="text-muted mb-4 lang-zh">
+            <p class="text-muted mb-4">
               我擁有豐富的產學經驗，曾任創業公司創辦人與執行長，並在多個公共事務與社會影響力領域擔任重要角色，如台灣人工智慧協會常務理事兼執行長、台灣女科技人學會理事等。
-            </p>
-            <p class="text-muted mb-4 lang-en d-none">
-              I have extensive industry-academia experience, having served as a founder and CEO of a startup, and in various public affairs and social impact roles, such as Executive Director of the Taiwan Artificial Intelligence Association and Director of the Taiwan Women in Science and Technology Association.
             </p>
             <div class="row mb-4">
               <div class="col-md-6 mb-3">
-                <h5 class="fw-bold lang-zh">教育背景</h5>
-                <h5 class="fw-bold lang-en d-none">Education</h5>
-                <p class="text-muted lang-zh">建築系博士<br>國立台灣科技大學設計學院</p>
-                <p class="text-muted lang-en d-none">Ph.D. in Architecture<br>College of Design, NTUST</p>
+                <h5 class="fw-bold">教育背景</h5>
+                <p class="text-muted">建築系博士<br>國立台灣科技大學設計學院</p>
               </div>
               <div class="col-md-6 mb-3">
-                <h5 class="fw-bold lang-zh">研究範疇</h5>
-                <h5 class="fw-bold lang-en d-none">Research Areas</h5>
-                <p class="text-muted lang-zh">人工智慧/物聯網<br>設計思考/創新創業</p>
-                <p class="text-muted lang-en d-none">AI/IoT<br>Design Thinking/Innovation</p>
+                <h5 class="fw-bold">研究範疇</h5>
+                <p class="text-muted">人工智慧/物聯網<br>設計思考/創新創業</p>
               </div>
               <div class="col-md-6 mb-3">
-                <h5 class="fw-bold lang-zh">辦公室</h5>
-                <h5 class="fw-bold lang-en d-none">Office</h5>
-                <p class="text-muted lang-zh">MA-406<br>週五 12:00-14:00 接見時間 <br>(請先email聯繫)</p>
-                <p class="text-muted lang-en d-none">MA-406<br>Office hours: Friday 12:00-14:00 <br>(Email appointment required)</p>
+                <h5 class="fw-bold">辦公室</h5>
+                <p class="text-muted">MA-406<br>週五 12:00-14:00 接見時間</p>
               </div>
               <div class="col-md-6 mb-3">
-                <h5 class="fw-bold lang-zh">聯絡方式</h5>
-                <h5 class="fw-bold lang-en d-none">Contact</h5>
-                <p class="text-muted lang-zh">886-2-2730-3655<br>Lydia.hmlin@mail.ntust.edu.tw<br>Lydia.hmlin@gmail.com</p>
-                <p class="text-muted lang-en d-none">886-2-2730-3655<br>Lydia.hmlin@mail.ntust.edu.tw<br>Lydia.hmlin@gmail.com</p>
+                <h5 class="fw-bold">聯絡方式</h5>
+                <p class="text-muted">886-2-2730-3655<br>Lydia.hmlin@mail.ntust.edu.tw</p>
               </div>
             </div>
-            <a href="#contact" class="btn btn-primary shadow lang-zh">
+            <a href="#contact" class="btn btn-primary shadow">
               聯繫我
-              <i class="fas fa-envelope ms-2"></i>
-            </a>
-            <a href="#contact" class="btn btn-primary shadow lang-en d-none">
-              Contact Me
               <i class="fas fa-envelope ms-2"></i>
             </a>
           </div>
           <div class="col-lg-6 order-1 order-lg-2">
             <div class="about-img-container">
-              <img src="https://ba.ntust.edu.tw/var/file/98/1098/img/796889617.png" 
-                  alt="林筱玫教授照片" class="img-fluid rounded-4 shadow">
+              <img src="https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+                  alt="About Me" class="img-fluid rounded-4 shadow">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 研究論文區塊 -->
-    <section id="publications" class="section-padding">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="section-title lang-zh">研究論文</h2>
-          <h2 class="section-title lang-en d-none">Publications</h2>
-          <p class="text-muted lang-zh">
-            我的最新學術研究成果與發表論文
-          </p>
-          <p class="text-muted lang-en d-none">
-            My latest academic research findings and published papers
-          </p>
-        </div>
-        
-        <div class="publications-wrapper">
-          <!-- 期刊論文 -->
-          <div class="mb-5">
-            <h3 class="h4 mb-4">期刊論文</h3>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-primary mb-2">2025</div>
-              <h4 class="publication-title h5">A rapid household mite detection and classification technology based on artificial intelligence-enhanced scanned images</h4>
-              <p class="publication-authors text-muted mb-2">Lydia Hsiao-Mei Lin, Wei-Cheng Lien, Cindy Yu-Ting Cheng, You-Cheng Lee, Yi-Ting Lin, Chin-Chia Kuo, Yi-Ting Lai, and Yan-Tsung Peng</p>
-              <p class="publication-journal fw-medium">Internet of Things, Vol. 29, Jan. 2025</p>
-              <p class="publication-note mb-1">SCI, Q1 (第一作者)</p>
-              <a href="https://doi.org/10.1016/j.iot.2024.101484" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-primary mb-2">2022</div>
-              <h4 class="publication-title h5">A Novel Mechanical Fault Diagnosis Based on Transfer Learning with Probability Confidence Convolutional Neural Network Model</h4>
-              <p class="publication-authors text-muted mb-2">Hsiao-Mei Lin, Ching-Yuan Lin, Chun-Hung Wang, and Ming-Jong Tsai</p>
-              <p class="publication-journal fw-medium">Applied Sciences, vol. 12, no. 19, p. 9670, Sep. 2022</p>
-              <p class="publication-note mb-1">SCI, Q2 (第一作者)</p>
-              <a href="https://www.mdpi.com/2076-3417/12/19/9670" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-primary mb-2">2018</div>
-              <h4 class="publication-title h5">IoT System to Detect and Record Closure Status of Fire Doors-Using LoRa Technology</h4>
-              <p class="publication-authors text-muted mb-2">Zhi-Feng Guan, Hsiao-Mei Lin, and Ching-Yuan Lin</p>
-              <p class="publication-journal fw-medium">Architecture Science (ArS), Pp. 29-38, Dec. 2018</p>
-              <a href="https://doi.org/10.3966/221915772018120018003" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-primary mb-2">2017</div>
-              <h4 class="publication-title h5">Applying Active Dynamic Signage System in Complex Underground Construction</h4>
-              <p class="publication-authors text-muted mb-2">Hsiao-Mei Lin, Shuo-Hung Chen, Jim Kao, Yung-Ming Lee, Gary Li-Kai Hsiao, Ching-Yuan Lin</p>
-              <p class="publication-journal fw-medium">International Journal of Scientific & Engineering Research (IJSER), vol. 8, Feb. 2017</p>
-              <p class="publication-note mb-1">(第一作者)</p>
-              <a href="https://api.semanticscholar.org/CorpusID:212458586" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-          </div>
-          
-          <!-- 研討會論文 -->
-          <div class="mb-5">
-            <h3 class="h4 mb-4">研討會論文</h3>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2024</div>
-              <h4 class="publication-title h5">Conversational Product Recommendation using LLM</h4>
-              <p class="publication-authors text-muted mb-2">Ting-Jui Chang, Lydia Hsiao-Mei Lin, Richard Tzong-Han Tsai</p>
-              <p class="publication-journal fw-medium">2024 IEEE 4th International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB), Taipei, Taiwan, 2024, pp. 340-343</p>
-              <p class="publication-note mb-1">(通訊作者)</p>
-              <a href="https://doi.org/10.1109/ICEIB61477.2024.10602608" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2024</div>
-              <h4 class="publication-title h5">Enhancing ESG Reporting Analysis: Leveraging GPT and Resampling Methods for Improved Multi-Label Classification</h4>
-              <p class="publication-authors text-muted mb-2">Jun-Wei Wu, Lydia Hsiao-Mei Lin, Richard Tzong-Han Tsai</p>
-              <p class="publication-journal fw-medium">2024 IEEE 4th International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB), Taipei, Taiwan, 2024, pp. 415-418</p>
-              <p class="publication-note mb-1">(通訊作者)</p>
-              <a href="https://doi.org/10.1109/ICEIB61477.2024.10602711" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2024</div>
-              <h4 class="publication-title h5">GPT4ESG: Streamlining Environment, Society, and Governance Analysis with Custom AI Models</h4>
-              <p class="publication-authors text-muted mb-2">Lydia Hsiao-Mei Lin, Fang-Kai Ting, Ting-Jui Chang, Jun-Wei Wu, Richard Tzong-Han Tsai</p>
-              <p class="publication-journal fw-medium">2024 IEEE 4th International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB), Taipei, Taiwan, 2024, pp. 442-446</p>
-              <p class="publication-note mb-1">(第一作者兼通訊作者)</p>
-              <a href="https://doi.org/10.1109/ICEIB61477.2024.10602567" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2024</div>
-              <h4 class="publication-title h5">AI-Enhanced Household Mite Detection and Classification</h4>
-              <p class="publication-authors text-muted mb-2">Cindy Yu-Ting Cheng, Lydia Hsiao-Mei Lin, Wei-Cheng Lien, Yi-Ting Lai, Yi-Ting Lin, Yan-Tsung Peng, and You-Cheng Lee</p>
-              <p class="publication-journal fw-medium">IEEE International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB 2024)</p>
-              <p class="publication-note mb-1">(通訊作者)</p>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2024</div>
-              <h4 class="publication-title h5">Advanced RUL Prediction with Transformer Architecture and Multi-Scale Feature Engineering</h4>
-              <p class="publication-authors text-muted mb-2">Fang-Kai Ting, Lydia Hsiao-Mei Lin, Wei-Cheng Lien, Simon Hung-Yi Lu, Richard Tzong-Han Tsai</p>
-              <p class="publication-journal fw-medium">IEEE International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB 2024)</p>
-              <p class="publication-note mb-1">(通訊作者)</p>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2023</div>
-              <h4 class="publication-title h5">High-Precision AI-based Mite Detection and Classification using Image Enhancement Techniques</h4>
-              <p class="publication-authors text-muted mb-2">Yi-Ting Lin, Yan-Tsung Peng, Wei-Cheng Lien, You-Cheng Lee, Yi-Ting Lai and Lydia Hsiao-Mei Lin</p>
-              <p class="publication-journal fw-medium">National Computer Symposium (NCS 2023), Taipei, Taiwan, 2023. pp. 280-284</p>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2022</div>
-              <h4 class="publication-title h5">A Novel Mechanical Fault Diagnosis Based on Transfer Learning in Probabilistic Confidence CNN Model</h4>
-              <p class="publication-authors text-muted mb-2">Hsiao-Mei Lin, Chun-Hung Wang, Ming-Jong Tsai, and Ching-Yuan Lin</p>
-              <p class="publication-journal fw-medium">2022 IEEE International Conference on Electronic Communications, Internet of Things and Big Data, 2022 Hsinchu, Taiwan. (ICEIB 2022)</p>
-              <p class="publication-note mb-1">(第一作者兼通訊作者)</p>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2016</div>
-              <h4 class="publication-title h5">Risk Factors of Post-earthquake Fire for Constructions Using the Analytic Hierarchy Process Approach</h4>
-              <p class="publication-authors text-muted mb-2">Hsiao-Mei Lin, Ching-Yuan Lin, Jui-Cheng Ko, and Yu-Shiang Wu</p>
-              <p class="publication-journal fw-medium">Proceedings of the 2016 International Conference on Architectural Engineering and Civil Engineering, Dec. 2016, pp. 1–4</p>
-              <p class="publication-note mb-1">(第一作者)</p>
-              <a href="https://doi.org/10.2991/aece-16.2017.1" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2011</div>
-              <h4 class="publication-title h5">TurboVG: A HW/SW co-designed multi-core OpenVG accelerator for vector graphics applications with embedded power profiler</h4>
-              <p class="publication-authors text-muted mb-2">Shuo-Hung Chen, Hsiao-Mei Lin, Ching-Chou Hsieh, Chih-Tsun Huang, Jing-Jia Liou, Yeh-Ching Chung</p>
-              <p class="publication-journal fw-medium">16th Asia and South Pacific Design Automation Conference (ASP-DAC 2011), Yokohama, Japan, January 25-28, 2011</p>
-              <a href="https://doi.org/10.1109/ASPDAC.2011.5722315" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2011</div>
-              <h4 class="publication-title h5">Hardware/Software co-designed accelerator for vector graphics applications</h4>
-              <p class="publication-authors text-muted mb-2">Shuo-Hung Chen, Hsiao-Mei Lin, Hsin-Wen Wei, Yi-Cheng Chen, Chih-Tsun Huang, Yeh-Ching Chung</p>
-              <p class="publication-journal fw-medium">9th IEEE Symposium on Application Specific Processors (SASP 2011), San Diego, CA, USA, 2011</p>
-              <a href="https://doi.org/10.1109/SASP.2011.5941088" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-info mb-2">2013</div>
-              <h4 class="publication-title h5">A systematic methodology for OS benchmark characterization</h4>
-              <p class="publication-authors text-muted mb-2">Shuo-Hung Chen, Hsiao-Mei Lin, Kuo-Yi Chen, Yuan-Hao Chang, Pen-Chung Yew, Chien-Chung Ho</p>
-              <p class="publication-journal fw-medium">Proceedings of the 2013 Research in Adaptive and Convergent Systems 2013 (RACS 2013), Montreal Quebec Canada, October 1-4, 2013. pp.404 – 409</p>
-              <a href="https://doi.org/10.1145/2513228.2513234" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> 閱讀論文
-              </a>
-            </div>
-          </div>
-          
-          <!-- 專書 -->
-          <div>
-            <h3 class="h4 mb-4">專書</h3>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-success mb-2">2024</div>
-              <h4 class="publication-title h5">《AI的發展與應用：一本人工智慧的科普書》</h4>
-              <p class="publication-authors text-muted mb-2">永齡慈善教育基金會</p>
-              <p class="publication-journal fw-medium">全華圖書，2024年04月01日</p>
-              <p class="publication-note mb-1">ISBN: 9786263288829</p>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-success mb-2">2024</div>
-              <h4 class="publication-title h5">《時空交織：一代女科技人的科學與心靈之旅-吳嘉麗》</h4>
-              <p class="publication-authors text-muted mb-2">林筱玫 Lydia Hsiao-Mei Lin</p>
-              <p class="publication-journal fw-medium">台灣女科技人學會，2024年10月</p>
-              <p class="publication-note mb-1">ISBN: 9786269785421</p>
-            </div>
-            
-            <div class="publication-item mb-4">
-              <div class="publication-year badge bg-success mb-2">2024</div>
-              <h4 class="publication-title h5">Intertwining space: A Trailblazing Woman Scientist's Journey Through Science and Soul - Wu Chia-Li</h4>
-              <p class="publication-authors text-muted mb-2">Lin, Hsiao-Mei</p>
-              <p class="publication-journal fw-medium">Taiwan Women in Science and Technology, Oct. 2024</p>
-              <p class="publication-note mb-1">ISBN: 9786269785414</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
     <!-- 技能區塊 -->
     <section id="skills" class="section-padding bg-light">
       <div class="container">
         <div class="text-center mb-5">
-          <h2 class="section-title lang-zh">專業領域和研究專長</h2>
-          <h2 class="section-title lang-en d-none">Professional Fields & Research Expertise</h2>
-          <p class="text-muted lang-zh">
+          <h2 class="section-title">專業領域和研究專長</h2>
+          <p class="text-muted">
             我的研究與教學專長涵蓋人工智慧、物聯網、設計思考與創新創業等多個跨領域範疇。
-          </p>
-          <p class="text-muted lang-en d-none">
-            My research and teaching expertise covers multiple interdisciplinary fields including AI, IoT, design thinking, and innovation & entrepreneurship.
           </p>
         </div>
         
@@ -882,13 +620,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-5 mb-lg-0">
-            <h2 class="section-title lang-zh">聯繫我</h2>
-            <h2 class="section-title lang-en d-none">Contact Me</h2>
-            <p class="text-muted mb-5 lang-zh">
+            <h2 class="section-title">聯繫我</h2>
+            <p class="text-muted mb-5">
               如有研究合作、產學計劃、演講邀約或學術交流需求，歡迎透過以下方式與我聯繫。
-            </p>
-            <p class="text-muted mb-5 lang-en d-none">
-              For research collaborations, industry-academia projects, speaking engagements, or academic exchanges, please contact me through the following methods.
             </p>
             
             <div class="contact-info">
@@ -898,7 +632,7 @@
                 </div>
                 <div>
                   <h5 class="fw-bold">電子郵件</h5>
-                  <p class="text-muted">Lydia.hmlin@mail.ntust.edu.tw<br>Lydia.hmlin@gmail.com</p>
+                  <p class="text-muted">Lydia.hmlin@mail.ntust.edu.tw</p>
                 </div>
               </div>
               <div class="d-flex mb-4">
@@ -964,7 +698,68 @@
     </section>
   </main>
 
-  <!-- 頁腳已移除 -->
+  <!-- 頁腳 -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <a href="#" class="text-white text-decoration-none fs-4 fw-bold">
+            林筱<span class="text-primary">玫</span>教授
+          </a>
+          <p class="text-muted mt-3 mb-4">
+            國立台灣科技大學企業管理系專案助理教授，專長於人工智慧、物聯網、設計思考與創新創業領域研究與教學。
+          </p>
+          <div class="footer-social-links">
+            <a href="#" aria-label="GitHub" class="text-muted me-3"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn" class="text-muted me-3"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="Dribbble" class="text-muted me-3"><i class="fab fa-dribbble"></i></a>
+            <a href="#" aria-label="Twitter" class="text-muted"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-md-4 col-lg-3 mb-4 mb-lg-0">
+          <h5 class="mb-4">導航</h5>
+          <ul class="list-unstyled footer-links">
+            <li class="mb-2"><a href="#home" class="text-muted text-decoration-none">首頁</a></li>
+            <li class="mb-2"><a href="#projects" class="text-muted text-decoration-none">項目</a></li>
+            <li class="mb-2"><a href="#about" class="text-muted text-decoration-none">關於我</a></li>
+            <li class="mb-2"><a href="#skills" class="text-muted text-decoration-none">技能</a></li>
+            <li><a href="#contact" class="text-muted text-decoration-none">聯繫</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-4 col-lg-4">
+          <h5 class="mb-4">聯繫方式</h5>
+          <ul class="list-unstyled footer-contact">
+            <li class="d-flex mb-3">
+              <i class="fas fa-envelope text-primary me-3"></i>
+              <span class="text-muted">Lydia.hmlin@mail.ntust.edu.tw</span>
+            </li>
+            <li class="d-flex mb-3">
+              <i class="fas fa-phone text-primary me-3"></i>
+              <span class="text-muted">886-2-2730-3655</span>
+            </li>
+            <li class="d-flex">
+              <i class="fas fa-map-marker-alt text-primary me-3"></i>
+              <span class="text-muted">研究室: MA-406，國立臺灣科技大學</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-top border-secondary mt-4 pt-4">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <p class="text-muted mb-0">© <span id="current-year">2023</span> 林筱玫教授. 國立臺灣科技大學企業管理系.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <a href="#" class="text-muted text-decoration-none me-3">隱私政策</a>
+            <a href="#" class="text-muted text-decoration-none">服務條款</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- 回到頂部按鈕 -->
   <a href="#" class="back-to-top" id="backToTop">

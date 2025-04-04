@@ -1,0 +1,83 @@
+{
+  "loading": {
+    "welcome": "Welcome to Lydia Hsiao-Mei Lin's Personal Website"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "research": "Research",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "subtitle": "Project Assistant Professor at National Taiwan University of Science and Technology"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "Focused on artificial intelligence, Internet of Things, design thinking, and innovation & entrepreneurship research. I hold a Ph.D. in Architecture from National Taiwan University of Science and Technology, previously served as Assistant Professor at National Taipei University of Technology's Department of Interaction Design, and currently serve as a member of the Presidential Office's National Climate Change Strategy Committee. I am currently a Project Assistant Professor at the Department of Business Administration, National Taiwan University of Science and Technology (2025-present).",
+    "educationTitle": "Education",
+    "education": "Ph.D. in Architecture, College of Design, National Taiwan University of Science and Technology (NTUST)",
+    "education2": "Master's and Bachelor's degrees in Computer Science, College of Electrical Engineering and Computer Science, National Tsing Hua University (NTHU)",
+    "researchTitle": "Research Areas",
+    "research": "Artificial Intelligence / Internet of Things / Design Thinking / Innovation and Entrepreneurship"
+  },
+  "research": {
+    "title": "My Research",
+    "journalTitle": "Journal Papers",
+    "conferenceTitle": "Conference Papers"
+  },
+  "skills": {
+    "title": "My Skills",
+    "ai": "Artificial Intelligence",
+    "iot": "Internet of Things",
+    "design": "Design Thinking",
+    "innovation": "Innovation & Entrepreneurship",
+    "programming": "Programming",
+    "teaching": "Teaching & Research"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "all": "All",
+    "web": "Web",
+    "app": "App",
+    "design": "Design",
+    "viewDetails": "View Details",
+    "viewGithub": "GitHub"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name": "Your Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send Message",
+    "location": "Location",
+    "phone": "Phone",
+    "emailAddress": "Email",
+    "successTitle": "Message Ready!",
+    "successDescription": "Opening your email client to send a message to Professor Lydia Lin."
+  },
+  "blog": {
+    "title": "Academic Blog",
+    "readMore": "Read More",
+    "readTime": "Reading Time",
+    "minutes": "minutes",
+    "recentPosts": "Recent Posts",
+    "categories": "Categories",
+    "tags": "Tags",
+    "author": "Author",
+    "date": "Publication Date",
+    "relatedPosts": "Related Posts",
+    "backToList": "Back to Blog List"
+  },
+  "footer": {
+    "rights": "All Rights Reserved.",
+    "lastUpdated": "Last Updated:",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "backToTop": "Back to Top"
+  }
+}

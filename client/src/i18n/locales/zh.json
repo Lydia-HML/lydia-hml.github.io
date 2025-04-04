@@ -1,0 +1,83 @@
+{
+  "loading": {
+    "welcome": "歡迎來到林筱玫 Lydia 的個人網頁"
+  },
+  "header": {
+    "home": "首頁",
+    "about": "關於我",
+    "skills": "專業技能",
+    "projects": "研究專案",
+    "research": "我的研究",
+    "blog": "部落格",
+    "contact": "聯絡方式"
+  },
+  "hero": {
+    "greeting": "您好，我是",
+    "subtitle": "國立台灣科技大學企業管理系專案助理教授"
+  },
+  "about": {
+    "title": "關於我",
+    "bio": "專注於人工智慧、物聯網、設計思考與創新創業研究，擁有台灣科技大學設計學院建築系博士學位，曾任國立台北科技大學互動設計系助理教授級專案教師，現為總統府國家氣候變遷對策委員會委員。目前在國立台灣科技大學企管系擔任專案助理教授（2025年至今）。",
+    "educationTitle": "學歷",
+    "education": "國立台灣科技大學-設計學院建築系-博士",
+    "education2": "國立清華大學-電資學院資訊工程系-碩士/學士",
+    "researchTitle": "研究範疇",
+    "research": "人工智慧(Artificial Intelligence)/物聯網(Internet of Things)/設計思考(Design Thinking)/創新創業(Innovation and Entrepreneurship)"
+  },
+  "research": {
+    "title": "我的研究",
+    "journalTitle": "期刊論文",
+    "conferenceTitle": "研討會論文"
+  },
+  "skills": {
+    "title": "專業技能",
+    "ai": "人工智慧",
+    "iot": "物聯網",
+    "design": "設計思考",
+    "innovation": "創新創業",
+    "programming": "程式開發",
+    "teaching": "教學與研究"
+  },
+  "projects": {
+    "title": "研究專案",
+    "all": "全部",
+    "web": "網頁",
+    "app": "應用",
+    "design": "設計",
+    "viewDetails": "查看詳情",
+    "viewGithub": "GitHub"
+  },
+  "contact": {
+    "title": "聯絡方式",
+    "name": "您的姓名",
+    "email": "您的電子郵件",
+    "subject": "主旨",
+    "message": "您的訊息",
+    "send": "發送訊息",
+    "location": "地址",
+    "phone": "電話",
+    "emailAddress": "電子郵件",
+    "successTitle": "訊息已準備好！",
+    "successDescription": "即將開啟您的郵件客戶端以發送訊息給林筱玫教授。"
+  },
+  "blog": {
+    "title": "學術部落格",
+    "readMore": "閱讀更多",
+    "readTime": "閱讀時間",
+    "minutes": "分鐘",
+    "recentPosts": "最新文章",
+    "categories": "文章分類",
+    "tags": "標籤",
+    "author": "作者",
+    "date": "發布日期",
+    "relatedPosts": "相關文章",
+    "backToList": "返回文章列表"
+  },
+  "footer": {
+    "rights": "保留所有權利.",
+    "lastUpdated": "最後更新於：",
+    "privacy": "隱私政策",
+    "terms": "服務條款",
+    "backToTop": "回到頂部"
+  }
+}

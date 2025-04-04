@@ -1,0 +1,497 @@
+/* 通用樣式 */
+:root {
+  --primary-color: #0d6efd;
+  --secondary-color: #6c757d;
+  --success-color: #198754;
+  --info-color: #0dcaf0;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --dark-color: #212529;
+  --light-color: #f8f9fa;
+  --body-color: #212529;
+  --bs-body-font-family: 'Inter', sans-serif;
+  --bs-body-line-height: 1.6;
+}
+
+body {
+  font-family: var(--bs-body-font-family);
+  line-height: var(--bs-body-line-height);
+  color: var(--body-color);
+  overflow-x: hidden;
+}
+
+/* 助手類 */
+.section-padding {
+  padding: 100px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+/* 導航欄 */
+#header {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* 首頁區塊 */
+.hero-section {
+  padding: 180px 0 100px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.profile-img-wrap {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border: 5px solid #fff;
+}
+
+.profile-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: var(--primary-color);
+}
+
+/* 項目區塊 */
+.project-img-container {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.project-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 110, 253, 0.85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-item:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-item:hover .project-img-container img {
+  transform: scale(1.1);
+}
+
+.filter-buttons .btn {
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  margin: 0 0.25rem;
+  transition: all 0.3s ease;
+}
+
+.filter-buttons .btn.active {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+/* 關於我區塊 */
+.about-img-container {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.about-img-container::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--primary-color);
+  opacity: 0.1;
+  border-radius: 1rem;
+  z-index: -1;
+}
+
+.about-img-container::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--primary-color);
+  opacity: 0.1;
+  border-radius: 1rem;
+  z-index: -1;
+}
+
+/* 技能區塊 */
+.skill-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.skill-header {
+  display: flex;
+  align-items: center;
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.skill-icon i {
+  font-size: 1.5rem;
+}
+
+.skill-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.progress {
+  border-radius: 30px;
+}
+
+/* 聯繫區塊 */
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.contact-form-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.social-link-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: var(--secondary-color);
+  margin-right: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.social-link-circle:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* 頁腳 */
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.footer-links li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a, .footer-contact a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover, .footer-contact a:hover {
+  color: var(--primary-color) !important;
+}
+
+/* 回到頂部按鈕 */
+.back-to-top {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover {
+  background-color: #0b5ed7;
+  color: #fff;
+}
+
+/* 響應式樣式 */
+@media (max-width: 991.98px) {
+  .section-padding {
+    padding: 80px 0;
+  }
+  
+  .hero-section {
+    padding: 140px 0 80px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .profile-img-wrap {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+  
+  .hero-section {
+    padding: 120px 0 60px;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .profile-img-wrap {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile-img-wrap {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* 自定義顏色 */
+.bg-purple {
+  background-color: #6f42c1;
+}
+
+.bg-purple-light {
+  background-color: rgba(111, 66, 193, 0.1);
+}
+
+.text-purple {
+  color: #6f42c1;
+}
+
+.bg-pink {
+  background-color: #d63384;
+}
+
+.bg-pink-light {
+  background-color: rgba(214, 51, 132, 0.1);
+}
+
+.text-pink {
+  color: #d63384;
+}
+
+/* 淡色背景徽章 */
+.bg-primary-subtle {
+  background-color: #cfe2ff;
+}
+
+.bg-secondary-subtle {
+  background-color: #e2e3e5;
+}
+
+.bg-success-subtle {
+  background-color: #d1e7dd;
+}
+
+.bg-danger-subtle {
+  background-color: #f8d7da;
+}
+
+.bg-warning-subtle {
+  background-color: #fff3cd;
+}
+
+.bg-info-subtle {
+  background-color: #cff4fc;
+}
+
+.bg-purple-subtle {
+  background-color: #e2d9f3;
+}
+
+.bg-pink-subtle {
+  background-color: #f7d6e6;
+}
+
+/* 加載動畫 */
+.spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 0.8s linear infinite;
+  margin-right: 0.5rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 表單驗證樣式 */
+.form-control.is-invalid {
+  border-color: var(--danger-color);
+  padding-right: calc(1.5em + 0.75rem);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: var(--danger-color);
+}
+
+/* 通知樣式 */
+.toast-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+}
+
+.toast {
+  max-width: 350px;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.toast-header {
+  color: white;
+}
+
+.toast-success .toast-header {
+  background-color: var(--success-color);
+}
+
+.toast-error .toast-header {
+  background-color: var(--danger-color);
+}
+
+/* 自定義間距 */
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 1rem;
+}
+
+.gap-4 {
+  gap: 1.5rem;
+}
+
+.gap-5 {
+  gap: 3rem;
+}

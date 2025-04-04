@@ -1,0 +1,53 @@
+.sidebar {
+    position: fixed;
+    background-image: url(bk.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.sidebarbox {
+    height: 50vh;
+}
+.sidebarphoto {
+    height: 20vh;
+	border: 0.3rem whitesmoke solid;
+}
+
+@media (max-width: 992px) {
+    .sidebar {
+        position: static;
+        height: 30vh;
+    }
+    .sidebarbox {
+        height: 30vh;
+    }
+}
+
+h2 {
+	background: linear-gradient(transparent 70%, #dbdbda 70%);
+}
+
+h4 {
+	color:#FF33B8;
+}
+p {
+	text-align: justify;
+}
+
+.zoom { 
+	transition: transform .2s; 
+}
+.zoom:hover { 
+	transform: scale(1.5); 
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
